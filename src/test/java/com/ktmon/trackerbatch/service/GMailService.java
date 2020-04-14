@@ -33,7 +33,6 @@ public class GMailService {
             MimeMessage message = new MimeMessage(session);
             message.setFrom(new InternetAddress(user));
 
-//            message.addRecipient(Message.RecipientType.TO, new InternetAddress("wecube.1@gmail.com"));
             message.addRecipient(Message.RecipientType.TO, new InternetAddress("wecube.1@gmail.com"));
 
             message.setSubject("test title");
